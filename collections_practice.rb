@@ -15,7 +15,6 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  # returns a new array where the 2nd and 3rd elements are swapped
   swapped_array = []
   array.each_with_index do |element, index|
     if index == 1
